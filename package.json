@@ -1,7 +1,7 @@
 {
-  "name": "steem-bot",
+  "name": "steemy-nights",
   "version": "1.0.0",
-  "description": "Template for steem bots",
+  "description": "A Steeming Bot",
   "main": "app/index.js",
   "scripts": {
     "start": "node app/index.js"
@@ -15,14 +15,16 @@
     "docker",
     "bot"
   ],
-  "author": "Leo Przybylski",
   "license": "MIT",
   "dependencies": {
-    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "bluebird": "^3.5.1",
+    "bower": "^1.8.2",
     "express": "^4.16.2",
     "node-schedule": "^1.3.0",
     "steem": "^0.7.1"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
   }
 }
