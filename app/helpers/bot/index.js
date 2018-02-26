@@ -1,13 +1,12 @@
-'use strict'
+'use strict';
 
-const scheduler = require('node-schedule')
-const HOURLY = '0 1 * * * *'
-
+const scheduler = require('node-schedule');
+const HOURLY = '0 1 * * * *';
 
 module.exports = {
-    run
-}
+  run,
+};
 
 function run() {
-    scheduler.scheduleJob(HOURLY, require('./task'))
+  scheduler.scheduleJob(HOURLY, require('./task'));
 }
